@@ -22,13 +22,6 @@
   </h3>
 </div>
 
-## Table of Contents
-
-- [Overview](#overview)
-  - [Built With](#built-with)
-- [Features](#features)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
 
 
 - Website [My 404 Page](https://optimistic-visvesvaraya-1465b4.netlify.app/)
