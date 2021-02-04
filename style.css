@@ -10,6 +10,7 @@ body {
   box-sizing: border-box;
   background-color: #ffffff;
   width: 100%;
+
 }
 /*Title*/
 
@@ -22,6 +23,13 @@ body {
   margin-top: 20px;
   color: #333333;
   letter-spacing: -0.08em;
+}
+
+/*Main*/
+main {
+  
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /*Image*/
@@ -78,4 +86,52 @@ button {
     font-family: 'Montserrat';
     font-size: 14px;
     margin-bottom:42px;
+}
+
+/*Media Quaries*/
+@media screen and (min-width:550px)
+{
+  .image{
+    width: 387px;
+  }
+}
+
+@media screen and (min-width:900px)
+{
+  main {
+    width:100%;
+    flex-wrap: nowrap;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .image {
+    width: 900px;
+    margin-left: 77px;
+  }
+  .content {
+    margin-left: 118px;
+    padding-left: 0;
+  }
+  .content>h1 {
+    font-size: 64px;
+  }
+  .content>p {
+    font-size: 24px;
+  }
+  #footer {
+    position: absolute;
+    margin: 0;
+    bottom:39px;
+    left: 50%;
+    right: 50%;
+    width: fit-content;
+    transform: translate(-50%,-50%);
+  }
+  #title {
+    margin-left: 77px;
+    margin-top: 40px;
+  }
+  
 }
