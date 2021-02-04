@@ -31,6 +31,6 @@
 - [Acknowledgements](#acknowledgements)
 
 
-- Website [your-website.com](https://optimistic-visvesvaraya-1465b4.netlify.app/)
-- GitHub [@your-username](https://github.com/berksysl)
-- Twitter [@your-twitter](https://twitter.com/berksysll)
+- Website [My 404 Page](https://optimistic-visvesvaraya-1465b4.netlify.app/)
+- GitHub [berksysl](https://github.com/berksysl)
+- Twitter [@berksysll](https://twitter.com/berksysll)
